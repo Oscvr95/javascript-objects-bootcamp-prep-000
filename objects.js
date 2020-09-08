@@ -1,7 +1,7 @@
 var MOTM = {KidCudi: 'Day N Night'}
 
-function updatePlaylist(album, artist, song) {
-  album[artist] = song
+function updatePlaylist(playlist, artist, song) {
+  playlist[artist] = song
 
   return album
 }
